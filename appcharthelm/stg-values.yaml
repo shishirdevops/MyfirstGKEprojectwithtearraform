@@ -1,0 +1,9 @@
+name: "stg"
+deployment:
+  name: first
+  image: varunkumarg/tasksapp-python
+  tag: 1.0.0
+  containerPort: "27017"
+service:
+  name: app
+  Port: "8080"

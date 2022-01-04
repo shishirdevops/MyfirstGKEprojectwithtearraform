@@ -1,0 +1,9 @@
+name: "dev"
+deployment:
+  image: mongo
+  containerPort: "27017"
+service:
+  name: db
+  Port: "27017"
+persistentvolumeclaim:
+  name: mongo-pvc-prd
