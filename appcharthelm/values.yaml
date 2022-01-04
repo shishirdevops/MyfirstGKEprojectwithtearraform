@@ -1,7 +1,7 @@
 name: "prd"
 deployment:
   name: first
-  image: varunkumarg/tasksapp-python
+  image: shishir91/tasksapp-python
   tag: 1.0.0
   containerPort: "27017"
 service:
