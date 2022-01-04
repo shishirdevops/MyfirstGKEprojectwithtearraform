@@ -1,7 +1,7 @@
 # MyfirstGKEprojectwithtearraform
 #this is flask based app which used mongodb to store data. You can simply create records using the app#
 
-Image chosen: FROM python:alpine3.7 (pyhton/alpine: as we have to bother about needed lib and bin to run our app and also we can have small image for easy shipping. )
+Image chosen: FROM python:alpine3.7 (pyhton/alpine: as we don't want to be bothered about needed lib and bin(e.g pip) to run our app and also we can have small image for easy shipping. )
 
 1. Created GCP account
 2. created a new project and switched to that.
